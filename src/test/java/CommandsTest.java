@@ -28,8 +28,8 @@ public class CommandsTest {
         System.out.println("The Enable button is " + enable.getText() + " button now.");
 
         input = explicitWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@type='text']")));
-                                                                                                    //"//*[@id='input-example']//input"
-        Thread.sleep(2000); //სრედები უბრალოდ დავამატე, ძაან სწრაფად რომ არ ემუშავა და დამენახა, რას აკეთებდა :დ
+
+        Thread.sleep(2000);
         input.sendKeys("Bootcamp");
         System.out.println("Input text is " + input.getAttribute("value"));
         Thread.sleep(2000);
