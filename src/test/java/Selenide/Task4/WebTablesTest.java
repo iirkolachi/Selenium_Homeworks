@@ -1,6 +1,6 @@
-package Selenide;
+package Selenide.Task4;
 
-import Selenide.Steps.WebtablesSteps;
+import Selenide.Steps.Task4.WebtablesSteps;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.open;
 

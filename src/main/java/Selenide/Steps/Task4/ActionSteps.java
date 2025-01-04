@@ -1,6 +1,6 @@
-package Selenide.Steps;
+package Selenide.Steps.Task4;
 
-import Selenide.Elements.ActionElements;
+import Selenide.Elements.Task4.ActionElements;
 import com.codeborne.selenide.Condition;
 
 public class ActionSteps extends ActionElements {

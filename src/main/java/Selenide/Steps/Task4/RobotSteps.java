@@ -1,6 +1,6 @@
-package Selenide.Steps;
+package Selenide.Steps.Task4;
 
-import Selenide.Elements.RobotElements;
+import Selenide.Elements.Task4.RobotElements;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.Keys;
