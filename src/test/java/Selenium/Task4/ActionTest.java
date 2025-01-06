@@ -16,7 +16,7 @@ public class ActionTest extends SetUpClass {
         Actions action = new Actions(driver);
 
         driver.get("https://www.google.com");
-        driver.navigate().to(" https://demoqa.com/tool-tips");
+        driver.navigate().to("https://demoqa.com/tool-tips");
 
         WebElement tipBox = driver.findElement(By.id("toolTipButton"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
