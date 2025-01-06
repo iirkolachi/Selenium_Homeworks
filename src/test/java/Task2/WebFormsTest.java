@@ -1,3 +1,5 @@
+package Task2;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +10,7 @@ import java.util.List;
 
 public class WebFormsTest {
     @Test
-    public void main() throws InterruptedException {
+    public void main() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
