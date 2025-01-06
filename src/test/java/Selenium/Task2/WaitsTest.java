@@ -1,20 +1,16 @@
-package Task2;
+package Selenium.Task2;
 
+import Selenium.POM.Utils.SetUpClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import java.time.Duration;
 
 
-public class WaitsTest {
+public class WaitsTest extends SetUpClass {
     @Test
     public void main() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
 
         driver.get("https://www.google.com");
         driver.navigate().to("https://demoqa.com/progress-bar");

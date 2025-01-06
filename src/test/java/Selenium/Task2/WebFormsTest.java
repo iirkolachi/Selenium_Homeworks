@@ -1,19 +1,14 @@
-package Task2;
+package Selenium.Task2;
 
+import Selenium.POM.Utils.SetUpClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import java.time.Duration;
 import java.util.List;
 
-public class WebFormsTest {
+public class WebFormsTest extends SetUpClass {
     @Test
     public void main() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         driver.get("https://www.google.com");
         driver.navigate().to("http://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");

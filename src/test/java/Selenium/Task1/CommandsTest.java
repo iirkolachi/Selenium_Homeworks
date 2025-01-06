@@ -1,3 +1,5 @@
+package Selenium.Task1;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,6 +20,7 @@ public class CommandsTest {
         driver.navigate().to("https://the-internet.herokuapp.com/dynamic_controls");
         WebElement enable = driver.findElement(By.xpath("//button[text()='Enable']"));
         enable.click();
+
 
         WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement input = explicitWait.until(webDriver -> webDriver.findElement(By.xpath("//*[@id='input-example']//input")));

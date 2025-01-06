@@ -1,23 +1,19 @@
-package Task4;
+package Selenium.Task4;
 
+import Selenium.POM.Utils.SetUpClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.time.Duration;
 
 
-public class RobotTest {
+public class RobotTest extends SetUpClass {
     @Test
     public void main() throws InterruptedException, AWTException {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+
         Robot robot = new Robot();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         driver.get("https://www.google.com");
         WebElement search = driver.findElement(By.xpath("//*[@id='APjFqb']"));
