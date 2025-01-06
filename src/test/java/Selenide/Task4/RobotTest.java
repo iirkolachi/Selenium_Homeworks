@@ -1,6 +1,6 @@
-package Selenide;
+package Selenide.Task4;
 
-import Selenide.Steps.RobotSteps;
+import Selenide.Steps.Task4.RobotSteps;
 import com.codeborne.selenide.Configuration;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.open;

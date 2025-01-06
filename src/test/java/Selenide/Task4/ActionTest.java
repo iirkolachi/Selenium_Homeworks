@@ -1,6 +1,6 @@
-package Selenide;
+package Selenide.Task4;
 
-import Selenide.Steps.ActionSteps;
+import Selenide.Steps.Task4.ActionSteps;
 import Selenide.Utils.SetUpClassWithSelenide;
 import com.codeborne.selenide.Configuration;
 import org.testng.Assert;

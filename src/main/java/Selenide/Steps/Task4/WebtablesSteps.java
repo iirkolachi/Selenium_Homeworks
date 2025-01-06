@@ -1,6 +1,6 @@
-package Selenide.Steps;
+package Selenide.Steps.Task4;
 
-import Selenide.Elements.WebtablesElements;
+import Selenide.Elements.Task4.WebtablesElements;
 import com.codeborne.selenide.SelenideElement;
 import org.testng.Assert;
 
